@@ -1,0 +1,146 @@
+# mOizkingZ - Full Tool List & Commands
+
+Below is the complete list of 50+ Android-compatible tools for ethical hacking and cybersecurity.  
+Just copy the command and paste in **UserLAnd** or **Termux**!
+
+---
+
+## WiFi Hacking & Analysis
+
+- **aircrack-ng**
+  ```
+  pkg install aircrack-ng
+  ```
+- **reaver**
+  ```
+  pkg install reaver
+  ```
+- **iw**
+  ```
+  pkg install iw
+  ```
+
+## Network Scanning
+
+- **nmap**
+  ```
+  pkg install nmap
+  ```
+- **netcat**
+  ```
+  pkg install netcat
+  ```
+- **fping**
+  ```
+  pkg install fping
+  ```
+
+## OSINT Tools
+
+- **PhoneInfoga**
+  ```
+  git clone https://github.com/sundowndev/PhoneInfoga.git
+  cd PhoneInfoga
+  pip install -r requirements.txt
+  python3 phoneinfoga.py
+  ```
+- **Sherlock**
+  ```
+  git clone https://github.com/sherlock-project/sherlock.git
+  cd sherlock
+  pip install -r requirements.txt
+  python3 sherlock.py username
+  ```
+- **theHarvester**
+  ```
+  pkg install theharvester
+  ```
+- **recon-ng**
+  ```
+  git clone https://github.com/lanmaster53/recon-ng.git
+  cd recon-ng
+  pip install -r REQUIREMENTS
+  python3 recon-ng.py
+  ```
+
+## CCTV/IP Camera Detection
+
+- **Shodan**
+  ```
+  pip install shodan
+  ```
+- **Camera-Shodan**
+  ```
+  git clone https://github.com/yeerkkil/camera-shodan.git
+  cd camera-shodan
+  pip install -r requirements.txt
+  python3 camera-shodan.py
+  ```
+
+## Vulnerability Scanners
+
+- **Nikto**
+  ```
+  pkg install nikto
+  ```
+- **wpscan**
+  ```
+  gem install wpscan
+  ```
+- **sqlmap**
+  ```
+  pkg install sqlmap
+  ```
+
+## Info Gathering
+
+- **whois**
+  ```
+  pkg install whois
+  ```
+- **dnsutils**
+  ```
+  pkg install dnsutils
+  ```
+- **curl**
+  ```
+  pkg install curl
+  ```
+
+## Password Cracking (Educational)
+
+- **John the Ripper**
+  ```
+  pkg install john
+  ```
+- **Hydra**
+  ```
+  pkg install hydra
+  ```
+
+## Web Recon
+
+- **dirb**
+  ```
+  pkg install dirb
+  ```
+- **wfuzz**
+  ```
+  pip install wfuzz
+  ```
+
+## Android-specific Tools
+
+- **Termux-API**
+  ```
+  pkg install termux-api
+  ```
+- **Metasploit**
+  ```
+  pkg install unstable-repo
+  pkg install metasploit
+  ```
+
+---
+
+*More tools can be added by contributing!*
